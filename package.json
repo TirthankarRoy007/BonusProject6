@@ -1,0 +1,27 @@
+{
+  "name": "bonusproject6",
+  "version": "1.0.0",
+  "description": "Simple Order Management System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TirthankarRoy007/BonusProject6.git"
+  },
+  "author": "Tirthankar Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TirthankarRoy007/BonusProject6/issues"
+  },
+  "homepage": "https://github.com/TirthankarRoy007/BonusProject6#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
