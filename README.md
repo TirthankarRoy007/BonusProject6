@@ -1,9 +1,15 @@
-# BonusProject6
-A SIMPLE ORDER MANAGEMENT SYSTEM
-Customers can create orders. For simplicity, once an order is created, thats final. There is no order status like created, payment done, completed etc. It is assumed that customer has already made the payment while creating the order.
-Customers are categorized as regular, gold, platinum
-By default, a customer is regular. ○ Customer is promoted to gold when he has placed 10 orders ○ Customer is promoted to platinum when he has placed 20 orders
-Gold = 10% discount, platinum = 20% discount
-When a customer creates an order, if he is a gold customer, automatically 10% discount is applied on the order. 20% for platinum customers.
-Since it is assumed that customer has already made the full payment during creation of the order, this discount information has to be kept safe by the application. We need to keep track of how much discount is given to which customer and for which order, so that customers can claim money back later.
-It is not mandatory to implement any other entities which are not mentioned here, like products or payments etc.
+Simple Order Management System
+
+This is a simple order management system designed to facilitate the creation and tracking of customer orders. The system supports three categories of customers: regular, gold, and platinum. Customers are automatically promoted to higher categories based on the number of orders they have placed. Gold customers receive a 10% discount on their orders, while platinum customers enjoy a 20% discount.
+Features
+
+    Order Creation: Customers can create orders, assuming they have already made the full payment. The system does not have order statuses such as created, payment done, or completed. Once an order is created, it is considered final.
+    Customer Categories: Customers are categorized as regular, gold, or platinum. By default, customers are regular. Customers are promoted to gold status after placing 10 orders, and to platinum status after placing 20 orders.
+    Discount Application: When a customer creates an order, the system automatically applies the appropriate discount based on their category. Gold customers receive a 10% discount, while platinum customers receive a 20% discount.
+    Discount Tracking: The system keeps track of the discounts given to each customer and associates them with specific orders. This information allows customers to claim their money back later if necessary.
+    Usage
+    Register a new customer account on the system.
+    Log in to your account using your credentials.
+    Create a new order by providing the necessary details, including the products and payment information.
+    The system will automatically apply the appropriate discount based on your customer category (regular, gold, or platinum).
+    Keep track of the discounts given to you and the associated orders for future reference and potential refund claims.
